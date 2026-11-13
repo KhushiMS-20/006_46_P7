@@ -1,6 +1,21 @@
+# Node dependencies
 node_modules/
 frontend/node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment files
 .env
+
+# Build files
 dist/
 build/
+
+# Logs
 *.log
+
+# Database (ignore if it contains local/test data)
+*.db
